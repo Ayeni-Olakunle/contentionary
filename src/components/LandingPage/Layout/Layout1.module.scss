@@ -1,0 +1,112 @@
+.holdAllFirst {
+  //   height: 100vh;
+  width: 100%;
+  overflow: hidden;
+
+  .holdAllSec {
+    height: 100vh;
+    background-image: url("../../Image//Rectangle\ 4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    // clip-path: circle(99.7% at 51% 0);
+    // margin-top: -265px;
+
+    .holdAllNav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .unorderedList {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+
+        li {
+          margin: 0 20px;
+          font-weight: 400;
+          cursor: pointer;
+        }
+      }
+      .holdButin {
+        .login {
+          padding: 13px 40px;
+          background-color: white;
+          border: none;
+          box-shadow: 5px 5px 5px #eae9e9, -5px -5px 5px #eae9e9;
+          border-radius: 50px;
+          margin-right: 20px;
+          cursor: pointer;
+        }
+        .createAccount {
+          padding: 13px 40px;
+          background-color: #f77e23;
+          color: white;
+          border: none;
+          box-shadow: 5px 5px 5px #eae9e9, -5px -5px 5px #eae9e9;
+          border-radius: 50px;
+          margin-right: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .logoStyle {
+      height: 35px;
+    }
+
+    .landingImage {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .holdText {
+        text-align: left;
+        margin-top: -80px;
+      }
+      .h1Style {
+        font-size: 40px;
+        color: #2f327d;
+        margin: 0;
+      }
+      .pStyle {
+        font-size: 18px;
+        color: #464646;
+        margin: 40px 0;
+      }
+      .create {
+        color: #f77e23;
+      }
+      .holdButin {
+        display: flex;
+        margin-top: 50px;
+        .createAccount {
+          padding: 20px 50px;
+          background-color: #f77e23;
+          color: white;
+          border: none;
+          box-shadow: 5px 5px 5px #eae9e9, -5px -5px 5px #eae9e9;
+          border-radius: 50px;
+          margin-right: 20px;
+          cursor: pointer;
+        }
+        .holdLogoPlay {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          height: 65px;
+          margin-left: -20px;
+        }
+        .logoPlay {
+          height: 150px;
+          margin-top: 40px;
+        }
+      }
+      .girlImage {
+        height: 600px;
+      }
+    }
+  }
+}
